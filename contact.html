@@ -1,39 +1,29 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact - Kupa Super</title>
-  <link rel="stylesheet" href="assets/style.css">
-</head>
+<head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>Contact — KUPA Professionals</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;800&family=Inter:wght@300;400;600&display=swap" rel="stylesheet"><link rel="stylesheet" href="assets/style.css"></head>
 <body>
-  <header>
-    <h1>Contact Us</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="professionals.html">Professionals</a>
-      <a href="sacco.html">Sacco</a>
-      <a href="marketplace.html">Marketplace</a>
-      <a href="coaching.html">Coaching</a>
-      <a href="mentorship.html">Mentorship</a>
-      <a href="events.html">Events</a>
-    </nav>
-  </header>
-  <main>
-    <section>
-      <h2>Get in Touch</h2>
-      <form>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" required></textarea>
-        <button type="submit">Send</button>
-      </form>
+  <header class="site-header"><div class="container header-inner"><a class="brand" href="index.html"><svg class="logo" viewBox="0 0 100 100"><rect width="100" height="100" rx="12" fill="#0a3d2e"/><text x="50" y="58" font-size="32" fill="#f4c542" font-family="Poppins" font-weight="700" text-anchor="middle">KP</text></svg><div><span class="brand-main">KUPA</span><div class="brand-sub">Professionals</div></div></a><nav class="nav"><a class="nav-link" href="index.html">Home</a><a class="nav-link" href="about.html">About</a><a class="btn-cta" href="contact.html">Join</a></nav></div></header>
+
+  <main class="container page">
+    <h1>Contact & Join</h1>
+    <p class="lead">Want to be listed, post an event, or propose a SACCO plan? Reach out below.</p>
+
+    <form action="https://formspree.io/f/your-form-id" method="POST" class="join-form">
+      <label><span>Full name</span><input name="name" required></label>
+      <label><span>Email</span><input name="email" type="email" required></label>
+      <label><span>Subject</span><input name="subject"></label>
+      <label><span>Message</span><textarea name="message" rows="4"></textarea></label>
+      <button class="btn-glow" type="submit">Send</button>
+    </form>
+
+    <section style="margin-top:18px">
+      <h2>Office</h2>
+      <p>Migori — Coordinates for events will be posted on event pages.</p>
+      <p><strong>WhatsApp / Phone: </strong> +254 7XXXXXXXX</p>
     </section>
   </main>
-  <script src="assets/script.js"></script>
+
+  <footer class="site-footer"><div class="container footer-inner"><div>© 2025 KUPA Professionals</div><nav class="footer-nav"><a href="index.html">Home</a></nav></div></footer>
 </body>
 </html>

@@ -1,9 +1,26 @@
 [
   {
-    "id": 1,
-    "title": "Kuria Business Summit",
-    "date": "2025-10-15",
-    "location": "Kuria Town Hall",
-    "description": "A gathering of Kuria professionals and entrepreneurs."
+    "title": "Kuria Diaspora Summit",
+    "date": "2025-12-15",
+    "venue": "Nairobi Convention Centre",
+    "description": "A gathering of Kuria professionals, investors, and mentors.",
+    "tags": ["Networking", "Diaspora"],
+    "link": "#"
+  },
+  {
+    "title": "Scholarship Drive",
+    "date": "2026-01-05",
+    "venue": "Migori Cultural Centre",
+    "description": "Fundraising to support students from Kuria counties.",
+    "tags": ["Education"],
+    "link": "#"
+  },
+  {
+    "title": "KUPA Business Expo",
+    "date": "2026-02-20",
+    "venue": "Kisii Expo Grounds",
+    "description": "Business showcase for Kuria-owned startups and SMEs.",
+    "tags": ["Business", "Expo"],
+    "link": "#"
   }
 ]

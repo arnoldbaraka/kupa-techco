@@ -1,9 +1,20 @@
 [
   {
-    "id": 1,
-    "name": "Coach Kuria",
-    "specialty": "Business Growth",
-    "bio": "Helping businesses scale and succeed.",
-    "avatar": "../assets/images/avatar-placeholder.svg"
+    "name": "Dr. Nyamongo",
+    "field": "Medical Leadership & Public Health",
+    "about": "Mentoring early-career doctors and clinical managers.",
+    "contact": "#"
+  },
+  {
+    "name": "Eng. Baraka",
+    "field": "Software Development & AI",
+    "about": "Guides developers on product architecture and ML basics.",
+    "contact": "#"
+  },
+  {
+    "name": "Mr. Chacha",
+    "field": "Finance & Entrepreneurship",
+    "about": "Startup finance, SACCO management, and business planning.",
+    "contact": "#"
   }
 ]

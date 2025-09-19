@@ -1,31 +1,49 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sacco - Kupa Super</title>
-  <link rel="stylesheet" href="assets/style.css">
-</head>
+<head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>SACCO — KUPA Professionals</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;800&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css"></head>
 <body>
-  <header>
-    <h1>Kupa Sacco</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="professionals.html">Professionals</a>
-      <a href="marketplace.html">Marketplace</a>
-      <a href="coaching.html">Coaching</a>
-      <a href="mentorship.html">Mentorship</a>
-      <a href="events.html">Events</a>
-      <a href="contact.html">Contact</a>
-    </nav>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html"><svg class="logo" viewBox="0 0 100 100"><rect width="100" height="100" rx="12" fill="#0a3d2e"/><text x="50" y="58" font-size="32" fill="#f4c542" font-family="Poppins" font-weight="700" text-anchor="middle">KP</text></svg><div><span class="brand-main">KUPA</span><div class="brand-sub">Professionals</div></div></a>
+      <nav class="nav"><a class="nav-link" href="index.html">Home</a><a class="nav-link" href="about.html">About</a><a class="nav-link active" href="sacco.html">SACCO</a><a class="btn-cta" href="contact.html">Join</a></nav>
+    </div>
   </header>
-  <main>
-    <section>
-      <h2>Empowering Financial Growth</h2>
-      <p>Learn more about our Sacco initiatives and opportunities.</p>
+
+  <main class="container page">
+    <h1>KUPA SACCO — Empowering Kuria Wealth</h1>
+    <p class="lead">Collective saving and community investment products that grow Kuria economic power.</p>
+
+    <div class="sacco-grid" style="margin-top:12px">
+      <div class="sacco-card card"><h3>💰 Savings Plans</h3><p>Flexible monthly savings plans for members — start small, grow big.</p></div>
+      <div class="sacco-card card"><h3>📈 Investment Pools</h3><p>Community investment in agriculture, real estate and startups.</p></div>
+      <div class="sacco-card card"><h3>🤝 Loans & Credit</h3><p>Short-term and growth loans with community-focused terms.</p></div>
+    </div>
+
+    <section style="margin-top:18px">
+      <h2>How to Join</h2>
+      <p>Complete the registration form. Verification and onboarding will follow. SACCO operations may later integrate M-Pesa for contributions.</p>
+      <form action="https://formspree.io/f/your-form-id" method="POST" class="join-form" style="margin-top:12px">
+        <label><span>Full name</span><input name="name" required></label>
+        <label><span>Email</span><input name="email" type="email" required></label>
+        <label><span>Phone (with country code)</span><input name="phone" required></label>
+        <label><span>Initial Contribution (KES)</span><input name="contribution" type="number"></label>
+        <button class="btn-glow" type="submit">Request SACCO Membership</button>
+      </form>
     </section>
+
+    <section style="margin-top:18px">
+      <h2>Impact Dashboard</h2>
+      <div style="display:flex;gap:12px;margin-top:8px;flex-wrap:wrap">
+        <div class="card"><strong class="impact-stat" data-to="120">0+</strong><p>Members</p></div>
+        <div class="card"><strong class="impact-stat" data-to="8">0+</strong><p>Investments Launched</p></div>
+        <div class="card"><strong class="impact-stat" data-to="450000">0</strong><p>KES Saved</p></div>
+      </div>
+    </section>
+
   </main>
-  <script src="assets/script.js"></script>
+
+  <footer class="site-footer"><div class="container footer-inner"><div>© 2025 KUPA SACCO</div><nav class="footer-nav"><a href="index.html">Home</a></nav></div></footer>
 </body>
 </html>

@@ -1,31 +1,104 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kupa Super - Home</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>KUPA Professionals — Home</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;800&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/style.css">
+  <script defer src="assets/script.js"></script>
 </head>
 <body>
-  <header>
-    <h1>Welcome to Kupa Super</h1>
-    <nav>
-      <a href="about.html">About</a>
-      <a href="professionals.html">Professionals</a>
-      <a href="sacco.html">Sacco</a>
-      <a href="marketplace.html">Marketplace</a>
-      <a href="coaching.html">Coaching</a>
-      <a href="mentorship.html">Mentorship</a>
-      <a href="events.html">Events</a>
-      <a href="contact.html">Contact</a>
-    </nav>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <svg class="logo" viewBox="0 0 100 100"><rect width="100" height="100" rx="12" fill="#0a3d2e"/><text x="50" y="58" font-size="32" fill="#f4c542" font-family="Poppins" font-weight="700" text-anchor="middle">KP</text></svg>
+        <div><span class="brand-main">KUPA</span><div class="brand-sub">Professionals</div></div>
+      </a>
+
+      <nav class="nav">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="about.html">About</a>
+        <a class="nav-link" href="professionals.html">Directory</a>
+        <a class="nav-link" href="sacco.html">SACCO</a>
+        <a class="nav-link" href="marketplace.html">Marketplace</a>
+        <a class="nav-link" href="coaching.html">Coaching</a>
+        <a class="nav-link" href="events.html">Events</a>
+        <a class="btn-cta" href="contact.html">Join</a>
+      </nav>
+    </div>
   </header>
+
   <main>
-    <section>
-      <h2>Empowering Kuria Professionals & Businesses</h2>
-      <p>Connecting, coaching, and growing together.</p>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-left">
+          <h1 class="hero-title"><span id="typing-text" aria-hidden="true"></span></h1>
+          <p class="hero-sub">A bold, modern hub for Kuria professionals — connect, save, coach, sell and celebrate.</p>
+          <div class="hero-cta">
+            <a class="btn btn-glow" href="professionals.html">Explore Directory</a>
+            <a class="btn btn-outline" href="coaching.html">Find a Coach</a>
+          </div>
+
+          <ul class="stats" aria-hidden="true">
+            <li><strong class="impact-stat" data-to="150">0+</strong><span>Professionals</span></li>
+            <li><strong class="impact-stat" data-to="20">0+</strong><span>Countries</span></li>
+            <li><strong class="impact-stat" data-to="30">0+</strong><span>Opportunities</span></li>
+          </ul>
+        </div>
+
+        <div class="hero-right">
+          <div class="hero-card">
+            <div class="card-pattern">
+              <!-- inline kuria svg pattern -->
+              <img src="assets/images/pattern-kuria.svg" alt="" style="width:88px;height:88px;border-radius:10px;object-fit:cover">
+            </div>
+            <div class="card-content">
+              <img class="avatar" src="assets/images/avatar-placeholder.svg" alt="kupa avatar">
+              <h3>Join KUPA SACCO, Coaching & Events</h3>
+              <p class="muted">Collective finance, mentorship, and vibrant events — built for Kuria people.</p>
+              <div style="margin-top:8px"><a class="btn-small" href="sacco.html">Learn SACCO</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sections container">
+      <div class="feature-grid">
+        <div class="feature"><div class="icon">🌍</div><h4>Global Network</h4><p>Connect with Kuria professionals across the world.</p></div>
+        <div class="feature"><div class="icon">💼</div><h4>Opportunity Exchange</h4><p>Jobs, fellowships, and marketplace listings.</p></div>
+        <div class="feature"><div class="icon">🎓</div><h4>Coaching & Mentorship</h4><p>Find coaches or mentor the next generation.</p></div>
+      </div>
+    </section>
+
+    <section class="directory-preview container">
+      <h2>Featured Professionals</h2>
+      <div id="directory-container" class="directory-grid" aria-live="polite">
+        <!-- populated by script from data/profiles.json -->
+      </div>
+    </section>
+
+    <section class="container">
+      <h2>Latest Events</h2>
+      <div id="events-container" class="grid-3" aria-live="polite">
+        <!-- events loaded by script -->
+      </div>
+    </section>
+
+    <section class="container" style="padding:28px 0">
+      <h2>Marketplace Preview</h2>
+      <div id="businesses-container" class="grid-3" aria-live="polite">
+        <!-- businesses loaded by script -->
+      </div>
     </section>
   </main>
-  <script src="assets/script.js"></script>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>© 2025 KUPA Professionals — for the Kuria people</div>
+      <nav class="footer-nav"><a href="about.html">About</a> <a href="contact.html">Contact</a></nav>
+    </div>
+  </footer>
 </body>
 </html>

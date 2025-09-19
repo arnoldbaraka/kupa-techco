@@ -1,31 +1,38 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Professionals - Kupa Super</title>
-  <link rel="stylesheet" href="assets/style.css">
-</head>
+<head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>Directory — KUPA Professionals</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;800&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css"></head>
 <body>
-  <header>
-    <h1>Kuria Professionals</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="sacco.html">Sacco</a>
-      <a href="marketplace.html">Marketplace</a>
-      <a href="coaching.html">Coaching</a>
-      <a href="mentorship.html">Mentorship</a>
-      <a href="events.html">Events</a>
-      <a href="contact.html">Contact</a>
-    </nav>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html"><svg class="logo" viewBox="0 0 100 100"><rect width="100" height="100" rx="12" fill="#0a3d2e"/><text x="50" y="58" font-size="32" fill="#f4c542" font-family="Poppins" font-weight="700" text-anchor="middle">KP</text></svg><div><span class="brand-main">KUPA</span><div class="brand-sub">Professionals</div></div></a>
+      <nav class="nav">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="about.html">About</a>
+        <a class="nav-link active" href="professionals.html">Directory</a>
+        <a class="nav-link" href="coaching.html">Coaching</a>
+        <a class="btn-cta" href="contact.html">Join</a>
+      </nav>
+    </div>
   </header>
-  <main>
-    <section>
-      <h2>Meet Our Professionals</h2>
-      <div id="profiles"></div>
-    </section>
+
+  <main class="container page">
+    <h1>Professionals Directory</h1>
+    <p class="lead">Browse Kuria professionals by name, role and location. Click connect to reach out.</p>
+
+    <div style="margin:12px 0">
+      <input id="search" placeholder="Search by name, skill or location" style="padding:10px;border-radius:8px;border:1px solid #e6e6e6;width:100%;max-width:480px">
+    </div>
+
+    <div id="directory-container" class="directory-grid" aria-live="polite">
+      <!-- populated by script -->
+    </div>
   </main>
-  <script src="assets/script.js"></script>
+
+  <footer class="site-footer"><div class="container footer-inner"><div>© 2025 KUPA Professionals</div><nav class="footer-nav"><a href="index.html">Home</a><a href="contact.html">Contact</a></nav></div></footer>
+  <script>
+    // reuse directory search already in assets/script.js will pick up #search input
+  </script>
 </body>
 </html>

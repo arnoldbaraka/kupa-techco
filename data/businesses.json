@@ -1,9 +1,23 @@
 [
   {
-    "id": 1,
-    "name": "Kuria Tech Solutions",
-    "category": "Technology",
-    "description": "Providing IT solutions for local businesses.",
-    "logo": "../assets/images/pattern-kuria.svg"
+    "name": "ARNO Motors",
+    "category": "Automotive Services",
+    "location": "Migori",
+    "description": "Spare parts, wheel alignment, and diagnostics.",
+    "link": "#"
+  },
+  {
+    "name": "Kuria Farm Goods",
+    "category": "Agriculture",
+    "location": "Kuria North",
+    "description": "Organic produce and cooperative distribution.",
+    "link": "#"
+  },
+  {
+    "name": "Baraka Tech",
+    "category": "Software",
+    "location": "Nairobi",
+    "description": "Custom software & fintech solutions for SMEs.",
+    "link": "#"
   }
 ]

@@ -1,16 +1,26 @@
 [
   {
-    "id": 1,
-    "name": "Jane Kuria",
-    "profession": "Engineer",
-    "bio": "Passionate about technology and community development.",
-    "avatar": "../assets/images/person1.svg"
+    "name": "Jane Mwita",
+    "role": "Software Engineer",
+    "location": "Nairobi, Kenya",
+    "summary": "Fullstack developer — building fintech and civic apps.",
+    "image": "assets/images/person1.svg",
+    "contact": "#"
   },
   {
-    "id": 2,
-    "name": "John Mwita",
-    "profession": "Doctor",
-    "bio": "Dedicated to improving healthcare in Kuria.",
-    "avatar": "../assets/images/person2.svg"
+    "name": "Dr. David Chacha",
+    "role": "Medical Doctor",
+    "location": "Kisumu, Kenya",
+    "summary": "Public health specialist focused on rural clinics.",
+    "image": "assets/images/person2.svg",
+    "contact": "#"
+  },
+  {
+    "name": "Mary Robi",
+    "role": "Lawyer",
+    "location": "Migori, Kenya",
+    "summary": "Corporate & family law with community empowerment focus.",
+    "image": "assets/images/person3.svg",
+    "contact": "#"
   }
 ]

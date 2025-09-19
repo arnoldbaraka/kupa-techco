@@ -1,31 +1,31 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Coaching - Kupa Super</title>
-  <link rel="stylesheet" href="assets/style.css">
-</head>
+<head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>Coaching — KUPA Professionals</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;800&family=Inter:wght@300;400;600&display=swap" rel="stylesheet"><link rel="stylesheet" href="assets/style.css"></head>
 <body>
-  <header>
-    <h1>Kupa Coaching</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="professionals.html">Professionals</a>
-      <a href="sacco.html">Sacco</a>
-      <a href="marketplace.html">Marketplace</a>
-      <a href="mentorship.html">Mentorship</a>
-      <a href="events.html">Events</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-  </header>
-  <main>
-    <section>
-      <h2>Coaching Programs</h2>
-      <div id="coaches"></div>
+  <header class="site-header"><div class="container header-inner"><a class="brand" href="index.html"><svg class="logo" viewBox="0 0 100 100"><rect width="100" height="100" rx="12" fill="#0a3d2e"/><text x="50" y="58" font-size="32" fill="#f4c542" font-family="Poppins" font-weight="700" text-anchor="middle">KP</text></svg><div><span class="brand-main">KUPA</span><div class="brand-sub">Professionals</div></div></a><nav class="nav"><a class="nav-link" href="index.html">Home</a><a class="nav-link" href="coaching.html">Coaching</a><a class="btn-cta" href="contact.html">Join</a></nav></div></header>
+
+  <main class="container page">
+    <h1>Coaching & Mentorship</h1>
+    <p class="lead">Find professional coaches to guide your career, business or studies.</p>
+
+    <div id="coaches-container" class="grid-3" aria-live="polite">
+      <!-- loaded by assets/script.js from data/coaches.json -->
+    </div>
+
+    <section style="margin-top:18px">
+      <h2>Request a Coaching Session</h2>
+      <p>Fill out the request and selected coaches will reach out.</p>
+      <form action="https://formspree.io/f/your-form-id" method="POST" class="join-form">
+        <label><span>Your name</span><input name="name" required></label>
+        <label><span>Email</span><input name="email" type="email" required></label>
+        <label><span>Coach / Field</span><input name="coach"></label>
+        <label><span>Message</span><textarea name="message" rows="4"></textarea></label>
+        <button class="btn-glow" type="submit">Request Session</button>
+      </form>
     </section>
   </main>
-  <script src="assets/script.js"></script>
+
+  <footer class="site-footer"><div class="container footer-inner"><div>© 2025 KUPA Coaching</div><nav class="footer-nav"><a href="index.html">Home</a></nav></div></footer>
 </body>
 </html>
