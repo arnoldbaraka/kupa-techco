@@ -1,26 +1,38 @@
 [
   {
-    "name": "Jane Mwita",
-    "role": "Software Engineer",
-    "location": "Nairobi, Kenya",
-    "summary": "Fullstack developer — building fintech and civic apps.",
-    "image": "assets/images/person1.svg",
-    "contact": "#"
+    "name": "Marwa Kemero Maisori Kitayama",
+    "role": "MP \u2014 Kuria East",
+    "image": "https://ui-avatars.com/api/?name=Marwa+Kemero+Maisori+Kitayama&background=E85A0C&color=fff&size=512",
+    "source": "https://parliament.go.ke/the-national-assembly/hon-maisori-marwa-kemero-kitayama"
   },
   {
-    "name": "Dr. David Chacha",
-    "role": "Medical Doctor",
-    "location": "Kisumu, Kenya",
-    "summary": "Public health specialist focused on rural clinics.",
-    "image": "assets/images/person2.svg",
-    "contact": "#"
+    "name": "Mathias Nyamabe Robi",
+    "role": "MP \u2014 Kuria West",
+    "image": "https://ui-avatars.com/api/?name=Mathias+Nyamabe+Robi&background=0D6E5A&color=fff&size=512",
+    "source": "https://www.parliament.go.ke/the-national-assembly/hon-robi-mathias-nyamabe"
   },
   {
-    "name": "Mary Robi",
-    "role": "Lawyer",
-    "location": "Migori, Kenya",
-    "summary": "Corporate & family law with community empowerment focus.",
-    "image": "assets/images/person3.svg",
-    "contact": "#"
+    "name": "Prof. Chacha Nyaigotti-Chacha",
+    "role": "Educationalist \u2014 CUE Chair",
+    "image": "https://ui-avatars.com/api/?name=Chacha+Nyaigotti-Chacha&background=7C3AED&color=fff&size=512",
+    "source": "https://en.wikipedia.org/wiki/Chacha_Nyaigotti-Chacha"
+  },
+  {
+    "name": "Dr Wilfred Gisuka Machage (late)",
+    "role": "Statesman \u2014 former MP & High Commissioner",
+    "image": "https://ui-avatars.com/api/?name=Wilfred+Machage&background=F59E0B&color=fff&size=512",
+    "source": "https://en.wikipedia.org/wiki/Wilfred_Machage"
+  },
+  {
+    "name": "Christine Bhoke Nchamah",
+    "role": "Community Developer \u00b7 CA Board Member",
+    "image": "https://ui-avatars.com/api/?name=Christine+Bhoke+Nchamah&background=FF7A7A&color=fff&size=512",
+    "source": "https://www.ca.go.ke/bhoke-christina-nchamah"
+  },
+  {
+    "name": "Caleb Chacha",
+    "role": "Engineer (example profile)",
+    "image": "https://ui-avatars.com/api/?name=Caleb+Chacha&background=0EA5A0&color=fff&size=512",
+    "source": "https://www.linkedin.com/in/caleb-chacha-65482971"
   }
 ]

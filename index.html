@@ -1,104 +1,143 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>KUPA Professionals — Home</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;800&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/style.css">
-  <script defer src="assets/script.js"></script>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>KUPA — Kuria Community Platform (v2)</title>
+<link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
-  <header class="site-header">
-    <div class="container header-inner">
-      <a class="brand" href="index.html">
-        <svg class="logo" viewBox="0 0 100 100"><rect width="100" height="100" rx="12" fill="#0a3d2e"/><text x="50" y="58" font-size="32" fill="#f4c542" font-family="Poppins" font-weight="700" text-anchor="middle">KP</text></svg>
-        <div><span class="brand-main">KUPA</span><div class="brand-sub">Professionals</div></div>
-      </a>
-
-      <nav class="nav">
-        <a class="nav-link" href="index.html">Home</a>
-        <a class="nav-link" href="about.html">About</a>
-        <a class="nav-link" href="professionals.html">Directory</a>
-        <a class="nav-link" href="sacco.html">SACCO</a>
-        <a class="nav-link" href="marketplace.html">Marketplace</a>
-        <a class="nav-link" href="coaching.html">Coaching</a>
-        <a class="nav-link" href="events.html">Events</a>
-        <a class="btn-cta" href="contact.html">Join</a>
-      </nav>
+<header class="site-header">
+  <div class="container header-inner">
+    <div class="brand">
+      <div class="logo" aria-hidden="true">
+        <!-- Stylized KUPA symbol (SVG) -->
+        <svg width="48" height="48" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="g1" x1="0" x2="1">
+              <stop offset="0" stop-color="#E85A0C"/>
+              <stop offset="1" stop-color="#F2C94C"/>
+            </linearGradient>
+          </defs>
+          <rect rx="8" width="48" height="48" fill="url(#g1)"/>
+          <text x="50%" y="58%" font-family="Verdana" font-weight="700" text-anchor="middle" font-size="20" fill="#fff">K</text>
+        </svg>
+      </div>
+      <div>
+        <h1>KUPA</h1>
+        <p class="tag">Kuria People — Community Tech, Culture & Commerce</p>
+      </div>
     </div>
-  </header>
+    <nav class="nav">
+      <a href="#news">News</a>
+      <a href="#coaching">Coaching</a>
+      <a href="#events">Events</a>
+      <a href="#women">Women</a>
+      <a href="#legends">Legends</a>
+      <a href="#profiles">People</a>
+    </nav>
+  </div>
+</header>
 
-  <main>
-    <section class="hero">
-      <div class="container hero-inner">
-        <div class="hero-left">
-          <h1 class="hero-title"><span id="typing-text" aria-hidden="true"></span></h1>
-          <p class="hero-sub">A bold, modern hub for Kuria professionals — connect, save, coach, sell and celebrate.</p>
-          <div class="hero-cta">
-            <a class="btn btn-glow" href="professionals.html">Explore Directory</a>
-            <a class="btn btn-outline" href="coaching.html">Find a Coach</a>
-          </div>
-
-          <ul class="stats" aria-hidden="true">
-            <li><strong class="impact-stat" data-to="150">0+</strong><span>Professionals</span></li>
-            <li><strong class="impact-stat" data-to="20">0+</strong><span>Countries</span></li>
-            <li><strong class="impact-stat" data-to="30">0+</strong><span>Opportunities</span></li>
-          </ul>
-        </div>
-
-        <div class="hero-right">
-          <div class="hero-card">
-            <div class="card-pattern">
-              <!-- inline kuria svg pattern -->
-              <img src="assets/images/pattern-kuria.svg" alt="" style="width:88px;height:88px;border-radius:10px;object-fit:cover">
-            </div>
-            <div class="card-content">
-              <img class="avatar" src="assets/images/avatar-placeholder.svg" alt="kupa avatar">
-              <h3>Join KUPA SACCO, Coaching & Events</h3>
-              <p class="muted">Collective finance, mentorship, and vibrant events — built for Kuria people.</p>
-              <div style="margin-top:8px"><a class="btn-small" href="sacco.html">Learn SACCO</a></div>
-            </div>
-          </div>
+<main>
+  <section class="hero">
+    <div class="hero-inner container">
+      <div class="hero-left">
+        <h2>Build the world’s first Kuria community tech heaven</h2>
+        <p class="lead">A modern, beautiful platform for Kuria East & West — news, events, coaching, SACCOs, mentoring and celebration of our legends & leaders.</p>
+        <div class="cta-row">
+          <a class="btn primary" href="#profiles">Explore people</a>
+          <a class="btn ghost" href="#events">See events</a>
         </div>
       </div>
-    </section>
-
-    <section class="sections container">
-      <div class="feature-grid">
-        <div class="feature"><div class="icon">🌍</div><h4>Global Network</h4><p>Connect with Kuria professionals across the world.</p></div>
-        <div class="feature"><div class="icon">💼</div><h4>Opportunity Exchange</h4><p>Jobs, fellowships, and marketplace listings.</p></div>
-        <div class="feature"><div class="icon">🎓</div><h4>Coaching & Mentorship</h4><p>Find coaches or mentor the next generation.</p></div>
+      <div class="hero-right">
+        <!-- African pattern card with rotating profile avatars -->
+        <div class="pattern-card">
+          <svg class="africa-pattern" viewBox="0 0 600 400" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+            <!-- Subtle kitenge-inspired pattern (repeating shapes) -->
+            <defs>
+              <pattern id="p" width="40" height="40" patternUnits="userSpaceOnUse">
+                <rect width="40" height="40" fill="#F7F3EE"/>
+                <circle cx="10" cy="10" r="6" fill="#E85A0C"/>
+                <circle cx="30" cy="30" r="6" fill="#0D6E5A"/>
+              </pattern>
+              <linearGradient id="lg" x1="0" x2="1">
+                <stop offset="0" stop-color="#FFEDD5"/>
+                <stop offset="1" stop-color="#FFF7ED"/>
+              </linearGradient>
+            </defs>
+            <rect width="600" height="400" fill="url(#p)"></rect>
+            <rect width="600" height="400" fill="url(#lg)" opacity="0.35"></rect>
+          </svg>
+          <div class="avatars">
+            <img src="https://ui-avatars.com/api/?name=Marwa+Maisori&background=E85A0C&color=fff&size=256" alt="Marwa Maisori" />
+            <img src="https://ui-avatars.com/api/?name=Mathias+Robi&background=0D6E5A&color=fff&size=256" alt="Mathias Robi" />
+            <img src="https://ui-avatars.com/api/?name=Chacha+Nyaigotti&background=7C3AED&color=fff&size=256" alt="Chacha Nyaigotti" />
+          </div>
+        </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section class="directory-preview container">
-      <h2>Featured Professionals</h2>
-      <div id="directory-container" class="directory-grid" aria-live="polite">
-        <!-- populated by script from data/profiles.json -->
-      </div>
-    </section>
+  <section id="profiles" class="container section">
+    <h3>Community Spotlight</h3>
+    <p class="muted">Profiles pulled from public sources — replace avatars with real photos by editing <code>data/profiles.json</code>.</p>
+    <div id="profiles-grid" class="grid"></div>
+  </section>
 
-    <section class="container">
-      <h2>Latest Events</h2>
-      <div id="events-container" class="grid-3" aria-live="polite">
-        <!-- events loaded by script -->
-      </div>
-    </section>
+  <section id="news" class="container section">
+    <h3>News Hub — Kuria East & West</h3>
+    <div id="news-grid" class="grid"></div>
+  </section>
 
-    <section class="container" style="padding:28px 0">
-      <h2>Marketplace Preview</h2>
-      <div id="businesses-container" class="grid-3" aria-live="polite">
-        <!-- businesses loaded by script -->
+  <section id="coaching" class="container section coaching">
+    <h3>Coaching & Mentorship</h3>
+    <p>Coaches and coachees have their own spaces — session scheduling, notes, resources and micro-payments plan (M-Pesa) are part of the roadmap.</p>
+    <div class="cards">
+      <div class="card">
+        <h4>Find a Coach</h4>
+        <p>Filter by skills, language (Kuria, Swahili, English), and availability.</p>
       </div>
-    </section>
-  </main>
+      <div class="card">
+        <h4>Request a Session</h4>
+        <p>Coachees request sessions which push to coach inbox; both sides confirm and transact.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="events" class="container section">
+    <h3>Events — community calendar</h3>
+    <p>Create events, tag members and invite them directly. RSVP & reminders will be built-in.</p>
+    <div id="events-list" class="grid"></div>
+  </section>
+
+  <section id="women" class="container section">
+    <h3>Women in Leadership</h3>
+    <div class="cards">
+      <div class="card big">
+        <h4>Christine Bhoke Nchamah</h4>
+        <p>Community developer, CA board member, champion of women’s SACCOs and local entrepreneurship.</p>
+        <a class="muted" href="#" id="bhoke-link">Source</a>
+      </div>
+      <div class="card big">
+        <h4>Mama Arno</h4>
+        <p>Community legend — oral histories, profiles, and verification notes included.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="legends" class="container section">
+    <h3>Legends & History</h3>
+    <p>Curated legends (Kina Machage, local oral histories), mysterious connections to regional history like Nyerere — clearly labelled and sourced.</p>
+    <div id="legends-grid" class="grid"></div>
+  </section>
 
   <footer class="site-footer">
-    <div class="container footer-inner">
-      <div>© 2025 KUPA Professionals — for the Kuria people</div>
-      <nav class="footer-nav"><a href="about.html">About</a> <a href="contact.html">Contact</a></nav>
+    <div class="container">
+      <p>© KUPA — Kuria People Platform 2025 · Static prototype for GitHub Pages</p>
+      <p class="muted">Images are generated avatars (ui-avatars) — replace with hosted photos by editing <code>data/profiles.json</code>.</p>
     </div>
   </footer>
+<script src="assets/js/app.js"></script>
 </body>
 </html>
