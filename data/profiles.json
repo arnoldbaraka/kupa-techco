@@ -2,7 +2,7 @@
   {
     "name": "Marwa Kemero Maisori Kitayama",
     "role": "MP \u2014 Kuria East",
-    "bio": "Parliamentary profile highlights.",
+    "bio": "Member of Parliament for Kuria East, active in community development.",
     "image": "https://ui-avatars.com/api/?name=Marwa+Kitayama&background=0b6b3f&color=fff",
     "source": "https://parliament.go.ke/the-national-assembly/hon-maisori-marwa-kemero-kitayama",
     "is_coach": false,
@@ -13,7 +13,7 @@
   {
     "name": "Mathias Nyamabe Robi",
     "role": "MP \u2014 Kuria West",
-    "bio": "Parliamentary profile highlights.",
+    "bio": "Member of Parliament for Kuria West; championed ICT hub projects.",
     "image": "https://ui-avatars.com/api/?name=Mathias+Robi&background=0b6b3f&color=fff",
     "source": "https://parliament.go.ke/the-national-assembly/hon-robi-mathias-nyamabe-0",
     "is_coach": false,
@@ -24,8 +24,8 @@
   {
     "name": "Prof. Chacha Nyaigotti-Chacha",
     "role": "Educationalist",
-    "bio": "Academic leader, higher education expert.",
-    "image": "https://ui-avatars.com/api/?name=Chacha+Nyaigotti&background=7c3aed&color=fff",
+    "bio": "Academic leader and higher education policy expert.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Chacha_Nyaigotti-Chacha.jpg",
     "source": "https://en.wikipedia.org/wiki/Chacha_Nyaigotti-Chacha",
     "is_coach": true,
     "tags": [
@@ -35,7 +35,7 @@
   {
     "name": "Christine Bhoke Nchamah",
     "role": "Community Developer",
-    "bio": "Women leadership & CA board member.",
+    "bio": "Women leadership & SACCO champion.",
     "image": "https://ui-avatars.com/api/?name=Christine+Bhoke&background=ff7a7a&color=fff",
     "source": "https://www.ca.go.ke/bhoke-christina-nchamah",
     "is_coach": true,
@@ -46,7 +46,7 @@
   {
     "name": "Caleb Chacha",
     "role": "Engineer",
-    "bio": "Engineer & technologist (public profile).",
+    "bio": "Engineer & technologist, contributor to African ICT.",
     "image": "https://ui-avatars.com/api/?name=Caleb+Chacha&background=0ea5a0&color=fff",
     "source": "https://www.linkedin.com/",
     "is_coach": true,
@@ -57,7 +57,7 @@
   {
     "name": "Arnold Baraka Mwita",
     "role": "Entrepreneur",
-    "bio": "Founder / operator (public profile).",
+    "bio": "Founder/operator and community technologist.",
     "image": "https://ui-avatars.com/api/?name=Arnold+Baraka&background=f59e0b&color=fff",
     "source": "https://github.com/arnoldbaraka",
     "is_coach": false,

@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Fresh Maize (50kg sack)",
+    "price": "KES 2500",
+    "location": "Kehancha",
+    "description": "Top-quality maize from local farms.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Maize_grain.jpg",
+    "contact": "0722 000 000"
+  },
+  {
+    "title": "Avocado crate",
+    "price": "KES 6000",
+    "location": "Mogora",
+    "description": "Fresh Hass avocados, 20kg crate.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Avocado.jpg",
+    "contact": "0722 111 111"
+  },
+  {
+    "title": "Goat (young)",
+    "price": "KES 8000",
+    "location": "Nyamaharaga",
+    "description": "Healthy young goat, ideal for breeding.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/70/Goat_in_a_field.jpg",
+    "contact": "0722 222 222"
+  }
+]

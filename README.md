@@ -1,19 +1,21 @@
 
-KUPA Pro — Green & Gold (Superb) — Static Prototype
+KUPA v4 Final - Interactive Pro Prototype (with images)
 
-This is a pro-grade static prototype for the KUPA platform built for the Kuria community.
-Theme: Deep Green (#0b6b3f) and Royal Gold (#f5b700).
+This build includes your uploaded hero image and curated public images (Wikimedia Commons links) for marketplace items & select profiles.
 
 Files:
-- index.html (single-page site)
+- index.html
 - assets/css/styles.css
 - assets/js/app.js
-- assets/images/kuria-placeholder.svg
-- data/*.json (profiles, news, events, legends)
+- assets/images/hero-community.jpg (your uploaded image)
+- assets/images/*.svg (placeholders)
+- data/*.json (profiles, news, events, legends, market)
 
 Deploy:
-1. Push repo to GitHub and enable GitHub Pages (main branch / root)
-2. Replace placeholder avatars and images in /assets/images and update data/profiles.json to point to real images (recommended: Wikimedia Commons or user-uploaded images)
+1. Create a GitHub repo and push the contents of this folder into repo root.
+2. Enable GitHub Pages (main branch / root).
+3. Replace any ui-avatar placeholders with rights-cleared photos if desired by placing images in assets/images/ and updating fields in data/profiles.json.
 
 Notes:
-- The site is static and stores join form submissions locally (localStorage) in this prototype. For production, connect a backend (Supabase, Firebase, or serverless functions) to store data, handle authentication, and integrate M-Pesa.
+- Marketplace listings are stored in-browser for the prototype. Use a backend for persistence and messaging in production.
+- Image sources from Wikimedia Commons used where available and linked in data files.
