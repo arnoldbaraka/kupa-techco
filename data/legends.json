@@ -1,12 +1,20 @@
 [
   {
-    "name": "Mzee Machage",
-    "story": "Respected elder remembered for uniting Kuria clans.",
-    "source": "https://en.wikipedia.org/wiki/Wilfred_Machage"
+    "name": "Kina Machage",
+    "type": "Oral history",
+    "story": "Elder and legendary figure in Kuria oral lore.",
+    "source": "(community oral history)"
   },
   {
-    "name": "Connection to Julius Nyerere",
-    "story": "Historical ties between Kuria and Tanzania\u2019s founding father.",
-    "source": "https://example.com/nyerere-kuria"
+    "name": "Mama Arno",
+    "type": "Community matriarch",
+    "story": "Respected matriarch and entrepreneur.",
+    "source": "(community sources)"
+  },
+  {
+    "name": "Kuria origins & Tanzania ties",
+    "type": "Scholarly",
+    "story": "Kuria people share cross-border ties with Tanzania; documented in ethnographic records.",
+    "source": "https://en.wikipedia.org/wiki/Kuria_people"
   }
 ]

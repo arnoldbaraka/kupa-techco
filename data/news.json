@@ -1,14 +1,23 @@
 [
   {
-    "title": "Kuria East Development Project Launched",
-    "excerpt": "New road infrastructure improving connectivity in Kuria East.",
-    "link": "https://example.com/kuria-east-project",
-    "region": "east"
+    "title": "Kuria East MP proposes administrative changes",
+    "excerpt": "Proposal to consider new administrative units for better governance.",
+    "link": "https://www.tuko.co.ke/politics/482836-kitayama-marwa-kuria-east-mp-proposal-create-5-counties-sparks-debate/",
+    "region": "east",
+    "source": "Tuko"
   },
   {
-    "title": "Kuria West Youth Empowerment",
-    "excerpt": "Mathias Robi supports youth training initiatives.",
-    "link": "https://example.com/kuria-west-youth",
-    "region": "west"
+    "title": "ICT Hub launched in Nyamaharaga",
+    "excerpt": "New ICT center to boost youth digital skills in Kuria West.",
+    "link": "https://www.facebook.com/100063816441711/posts/1348173690653166/",
+    "region": "west",
+    "source": "MP Facebook"
+  },
+  {
+    "title": "Local SACCO expands micro-loans for women",
+    "excerpt": "Kuria women SACCO reports lending growth for agribusiness.",
+    "link": "https://example.com/sacco-growth",
+    "region": "all",
+    "source": "Local press"
   }
 ]

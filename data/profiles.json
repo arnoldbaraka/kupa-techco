@@ -1,40 +1,79 @@
 [
   {
     "name": "Marwa Kemero Maisori Kitayama",
-    "role": "MP, Kuria East",
-    "bio": "Kenyan politician representing Kuria East, noted for development programs.",
-    "source": "https://info.mzalendo.com/person/marwa-maisori-kitayama/",
-    "is_coach": false
+    "role": "MP \u2014 Kuria East",
+    "bio": "Parliamentary profile highlights.",
+    "image": "https://ui-avatars.com/api/?name=Marwa+Kitayama&background=0b6b3f&color=fff",
+    "source": "https://parliament.go.ke/the-national-assembly/hon-maisori-marwa-kemero-kitayama",
+    "is_coach": false,
+    "tags": [
+      "leader"
+    ]
   },
   {
     "name": "Mathias Nyamabe Robi",
-    "role": "MP, Kuria West",
-    "bio": "Kenyan politician representing Kuria West, contributor to national parliament.",
-    "source": "https://info.mzalendo.com/person/mathias-nyamabe-robi/",
-    "is_coach": false
+    "role": "MP \u2014 Kuria West",
+    "bio": "Parliamentary profile highlights.",
+    "image": "https://ui-avatars.com/api/?name=Mathias+Robi&background=0b6b3f&color=fff",
+    "source": "https://parliament.go.ke/the-national-assembly/hon-robi-mathias-nyamabe-0",
+    "is_coach": false,
+    "tags": [
+      "leader"
+    ]
+  },
+  {
+    "name": "Prof. Chacha Nyaigotti-Chacha",
+    "role": "Educationalist",
+    "bio": "Academic leader, higher education expert.",
+    "image": "https://ui-avatars.com/api/?name=Chacha+Nyaigotti&background=7c3aed&color=fff",
+    "source": "https://en.wikipedia.org/wiki/Chacha_Nyaigotti-Chacha",
+    "is_coach": true,
+    "tags": [
+      "education"
+    ]
   },
   {
     "name": "Christine Bhoke Nchamah",
-    "role": "Communications Authority of Kenya",
-    "bio": "Leader in ICT regulation and communications authority.",
-    "source": "https://ca.go.ke/",
+    "role": "Community Developer",
+    "bio": "Women leadership & CA board member.",
+    "image": "https://ui-avatars.com/api/?name=Christine+Bhoke&background=ff7a7a&color=fff",
+    "source": "https://www.ca.go.ke/bhoke-christina-nchamah",
     "is_coach": true,
     "tags": [
       "women"
     ]
   },
   {
-    "name": "Prof. Chacha Nyaigotti-Chacha",
-    "role": "Academic & Author",
-    "bio": "Renowned scholar and author from the Kuria community.",
-    "source": "https://en.wikipedia.org/wiki/Chacha_Nyaigotti-Chacha",
-    "is_coach": true
+    "name": "Caleb Chacha",
+    "role": "Engineer",
+    "bio": "Engineer & technologist (public profile).",
+    "image": "https://ui-avatars.com/api/?name=Caleb+Chacha&background=0ea5a0&color=fff",
+    "source": "https://www.linkedin.com/",
+    "is_coach": true,
+    "tags": [
+      "tech"
+    ]
   },
   {
-    "name": "Dr. Wilfred Gisuka Machage",
-    "role": "Kenyan Politician and Diplomat",
-    "bio": "Prominent Kurian leader and statesman.",
-    "source": "https://en.wikipedia.org/wiki/Wilfred_Machage",
-    "is_coach": false
+    "name": "Arnold Baraka Mwita",
+    "role": "Entrepreneur",
+    "bio": "Founder / operator (public profile).",
+    "image": "https://ui-avatars.com/api/?name=Arnold+Baraka&background=f59e0b&color=fff",
+    "source": "https://github.com/arnoldbaraka",
+    "is_coach": false,
+    "tags": [
+      "tech"
+    ]
+  },
+  {
+    "name": "Chacha Mwita",
+    "role": "Judge (High Court)",
+    "bio": "Legal leader from Kuria.",
+    "image": "https://ui-avatars.com/api/?name=Chacha+Mwita&background=6b7280&color=fff",
+    "source": "https://judiciary.go.ke/",
+    "is_coach": false,
+    "tags": [
+      "law"
+    ]
   }
 ]

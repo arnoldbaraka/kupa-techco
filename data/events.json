@@ -1,14 +1,16 @@
 [
   {
-    "title": "KUPA SACCO AGM",
+    "title": "Kuria West SACCO AGM",
     "date": "2025-11-15",
-    "location": "Migori Town",
-    "description": "Annual General Meeting for KUPA SACCO members."
+    "location": "Kehancha Town",
+    "description": "Annual meeting and elections.",
+    "owner": "Kuria West SACCO"
   },
   {
-    "title": "ICT Innovation Forum",
-    "date": "2025-12-01",
-    "location": "Nairobi",
-    "description": "Highlighting Kuria innovators in tech."
+    "title": "Digital Skills Bootcamp",
+    "date": "2025-09-21",
+    "location": "Nyamaharaga ICT Hub",
+    "description": "Free training for youth on web & mobile.",
+    "owner": "Kuria West Office"
   }
 ]
