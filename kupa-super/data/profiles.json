@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "Jane Kuria",
+    "profession": "Engineer",
+    "bio": "Passionate about technology and community development.",
+    "avatar": "../assets/images/person1.svg"
+  },
+  {
+    "id": 2,
+    "name": "John Mwita",
+    "profession": "Doctor",
+    "bio": "Dedicated to improving healthcare in Kuria.",
+    "avatar": "../assets/images/person2.svg"
+  }
+]

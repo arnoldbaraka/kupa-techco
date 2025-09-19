@@ -1,0 +1,6 @@
+<svg width="80" height="80" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="40" cy="40" r="40" fill="#ccc"/>
+  <circle cx="40" cy="32" r="16" fill="#fff"/>
+  <rect x="24" y="48" width="32" height="20" rx="10" fill="#fff"/>
+  <text x="40" y="75" font-size="12" text-anchor="middle" fill="#2d3e50">Person</text>
+</svg>

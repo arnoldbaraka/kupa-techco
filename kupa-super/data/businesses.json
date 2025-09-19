@@ -1,0 +1,9 @@
+[
+  {
+    "id": 1,
+    "name": "Kuria Tech Solutions",
+    "category": "Technology",
+    "description": "Providing IT solutions for local businesses.",
+    "logo": "../assets/images/pattern-kuria.svg"
+  }
+]
