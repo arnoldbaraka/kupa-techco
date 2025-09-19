@@ -1,9 +1,9 @@
 [
   {
-    "name": "Marwa Kemero Maisori Kitayama",
+    "name": "Marwa Kitayama",
     "role": "MP \u2014 Kuria East",
-    "bio": "Member of Parliament for Kuria East, active in community development.",
-    "image": "https://ui-avatars.com/api/?name=Marwa+Kitayama&background=0b6b3f&color=fff",
+    "bio": "Member of Parliament for Kuria East.",
+    "image": "https://avatars.dicebear.com/api/micah/Marwa%20Kitayama.svg",
     "source": "https://parliament.go.ke/the-national-assembly/hon-maisori-marwa-kemero-kitayama",
     "is_coach": false,
     "tags": [
@@ -11,10 +11,10 @@
     ]
   },
   {
-    "name": "Mathias Nyamabe Robi",
+    "name": "Mathias Robi",
     "role": "MP \u2014 Kuria West",
-    "bio": "Member of Parliament for Kuria West; championed ICT hub projects.",
-    "image": "https://ui-avatars.com/api/?name=Mathias+Robi&background=0b6b3f&color=fff",
+    "bio": "Member of Parliament for Kuria West.",
+    "image": "https://avatars.dicebear.com/api/micah/Mathias%20Robi.svg",
     "source": "https://parliament.go.ke/the-national-assembly/hon-robi-mathias-nyamabe-0",
     "is_coach": false,
     "tags": [
@@ -22,10 +22,10 @@
     ]
   },
   {
-    "name": "Prof. Chacha Nyaigotti-Chacha",
+    "name": "Chacha Nyaigotti-Chacha",
     "role": "Educationalist",
-    "bio": "Academic leader and higher education policy expert.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Chacha_Nyaigotti-Chacha.jpg",
+    "bio": "Academic & higher education expert.",
+    "image": "https://avatars.dicebear.com/api/bottts/Chacha%20Nyaigotti-Chacha.svg",
     "source": "https://en.wikipedia.org/wiki/Chacha_Nyaigotti-Chacha",
     "is_coach": true,
     "tags": [
@@ -33,10 +33,10 @@
     ]
   },
   {
-    "name": "Christine Bhoke Nchamah",
+    "name": "Christine Bhoke",
     "role": "Community Developer",
     "bio": "Women leadership & SACCO champion.",
-    "image": "https://ui-avatars.com/api/?name=Christine+Bhoke&background=ff7a7a&color=fff",
+    "image": "https://avatars.dicebear.com/api/micah/Christine%20Bhoke.svg",
     "source": "https://www.ca.go.ke/bhoke-christina-nchamah",
     "is_coach": true,
     "tags": [
@@ -46,8 +46,8 @@
   {
     "name": "Caleb Chacha",
     "role": "Engineer",
-    "bio": "Engineer & technologist, contributor to African ICT.",
-    "image": "https://ui-avatars.com/api/?name=Caleb+Chacha&background=0ea5a0&color=fff",
+    "bio": "Technologist contributing to African ICT.",
+    "image": "https://avatars.dicebear.com/api/bottts/Caleb%20Chacha.svg",
     "source": "https://www.linkedin.com/",
     "is_coach": true,
     "tags": [
@@ -55,25 +55,14 @@
     ]
   },
   {
-    "name": "Arnold Baraka Mwita",
+    "name": "Arnold Baraka",
     "role": "Entrepreneur",
-    "bio": "Founder/operator and community technologist.",
-    "image": "https://ui-avatars.com/api/?name=Arnold+Baraka&background=f59e0b&color=fff",
+    "bio": "Community technologist & founder.",
+    "image": "https://avatars.dicebear.com/api/micah/Arnold%20Baraka.svg",
     "source": "https://github.com/arnoldbaraka",
     "is_coach": false,
     "tags": [
       "tech"
-    ]
-  },
-  {
-    "name": "Chacha Mwita",
-    "role": "Judge (High Court)",
-    "bio": "Legal leader from Kuria.",
-    "image": "https://ui-avatars.com/api/?name=Chacha+Mwita&background=6b7280&color=fff",
-    "source": "https://judiciary.go.ke/",
-    "is_coach": false,
-    "tags": [
-      "law"
     ]
   }
 ]
