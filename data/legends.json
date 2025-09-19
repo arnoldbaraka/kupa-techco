@@ -1,14 +1,12 @@
 [
   {
-    "name": "Kina Machage",
-    "period": "Historic / Oral",
-    "story": "Local elder and legend \u2014 stories, feats and local songs recorded in oral histories. Marked for verification.",
-    "source": "(oral history \u2014 community archives)"
+    "name": "Mzee Machage",
+    "story": "Respected elder remembered for uniting Kuria clans.",
+    "source": "https://en.wikipedia.org/wiki/Wilfred_Machage"
   },
   {
-    "name": "Mama Arno",
-    "period": "Modern legend",
-    "story": "Entrepreneur and community matriarch; popular figure in Kuria oral histories.",
-    "source": "(community sources \u2014 to be validated)"
+    "name": "Connection to Julius Nyerere",
+    "story": "Historical ties between Kuria and Tanzania\u2019s founding father.",
+    "source": "https://example.com/nyerere-kuria"
   }
 ]

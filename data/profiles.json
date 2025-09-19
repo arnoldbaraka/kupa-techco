@@ -1,38 +1,40 @@
 [
   {
     "name": "Marwa Kemero Maisori Kitayama",
-    "role": "MP \u2014 Kuria East",
-    "image": "https://ui-avatars.com/api/?name=Marwa+Kemero+Maisori+Kitayama&background=E85A0C&color=fff&size=512",
-    "source": "https://parliament.go.ke/the-national-assembly/hon-maisori-marwa-kemero-kitayama"
+    "role": "MP, Kuria East",
+    "bio": "Kenyan politician representing Kuria East, noted for development programs.",
+    "source": "https://info.mzalendo.com/person/marwa-maisori-kitayama/",
+    "is_coach": false
   },
   {
     "name": "Mathias Nyamabe Robi",
-    "role": "MP \u2014 Kuria West",
-    "image": "https://ui-avatars.com/api/?name=Mathias+Nyamabe+Robi&background=0D6E5A&color=fff&size=512",
-    "source": "https://www.parliament.go.ke/the-national-assembly/hon-robi-mathias-nyamabe"
-  },
-  {
-    "name": "Prof. Chacha Nyaigotti-Chacha",
-    "role": "Educationalist \u2014 CUE Chair",
-    "image": "https://ui-avatars.com/api/?name=Chacha+Nyaigotti-Chacha&background=7C3AED&color=fff&size=512",
-    "source": "https://en.wikipedia.org/wiki/Chacha_Nyaigotti-Chacha"
-  },
-  {
-    "name": "Dr Wilfred Gisuka Machage (late)",
-    "role": "Statesman \u2014 former MP & High Commissioner",
-    "image": "https://ui-avatars.com/api/?name=Wilfred+Machage&background=F59E0B&color=fff&size=512",
-    "source": "https://en.wikipedia.org/wiki/Wilfred_Machage"
+    "role": "MP, Kuria West",
+    "bio": "Kenyan politician representing Kuria West, contributor to national parliament.",
+    "source": "https://info.mzalendo.com/person/mathias-nyamabe-robi/",
+    "is_coach": false
   },
   {
     "name": "Christine Bhoke Nchamah",
-    "role": "Community Developer \u00b7 CA Board Member",
-    "image": "https://ui-avatars.com/api/?name=Christine+Bhoke+Nchamah&background=FF7A7A&color=fff&size=512",
-    "source": "https://www.ca.go.ke/bhoke-christina-nchamah"
+    "role": "Communications Authority of Kenya",
+    "bio": "Leader in ICT regulation and communications authority.",
+    "source": "https://ca.go.ke/",
+    "is_coach": true,
+    "tags": [
+      "women"
+    ]
   },
   {
-    "name": "Caleb Chacha",
-    "role": "Engineer (example profile)",
-    "image": "https://ui-avatars.com/api/?name=Caleb+Chacha&background=0EA5A0&color=fff&size=512",
-    "source": "https://www.linkedin.com/in/caleb-chacha-65482971"
+    "name": "Prof. Chacha Nyaigotti-Chacha",
+    "role": "Academic & Author",
+    "bio": "Renowned scholar and author from the Kuria community.",
+    "source": "https://en.wikipedia.org/wiki/Chacha_Nyaigotti-Chacha",
+    "is_coach": true
+  },
+  {
+    "name": "Dr. Wilfred Gisuka Machage",
+    "role": "Kenyan Politician and Diplomat",
+    "bio": "Prominent Kurian leader and statesman.",
+    "source": "https://en.wikipedia.org/wiki/Wilfred_Machage",
+    "is_coach": false
   }
 ]

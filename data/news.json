@@ -1,14 +1,14 @@
 [
   {
-    "title": "Kuria East development projects update",
-    "source": "Parliament website",
-    "excerpt": "Summary of development projects and budget allocations in Kuria East.",
-    "link": "https://parliament.go.ke/the-national-assembly/hon-maisori-marwa-kemero-kitayama"
+    "title": "Kuria East Development Project Launched",
+    "excerpt": "New road infrastructure improving connectivity in Kuria East.",
+    "link": "https://example.com/kuria-east-project",
+    "region": "east"
   },
   {
-    "title": "Kuria West MP speech on education",
-    "source": "Mzalendo",
-    "excerpt": "Highlights from Hon. Mathias Robi on education and technical colleges.",
-    "link": "https://info.mzalendo.com/hansard/person/marwa-kemero-maisori-kitayama/appearances/"
+    "title": "Kuria West Youth Empowerment",
+    "excerpt": "Mathias Robi supports youth training initiatives.",
+    "link": "https://example.com/kuria-west-youth",
+    "region": "west"
   }
 ]

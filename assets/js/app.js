@@ -1,59 +1,48 @@
-
-// Simple client-side renderer for the static prototype
-async function loadJSON(path){ const r = await fetch(path); return r.json(); }
-
-function profileCard(p){
-  const el = document.createElement('div');
-  el.className = 'profile-card card';
-  el.innerHTML = `
-    <img src="${p.image}" alt="${p.name}" loading="lazy">
-    <div class="profile-meta">
-      <h4>${p.name}</h4>
-      <p class="muted">${p.role || ''}</p>
-      <p class="muted" style="font-size:0.85rem">Source: <a href="${p.source}" target="_blank" rel="noopener noreferrer">link</a></p>
-    </div>`;
-  return el;
+async function loadJSON(file) {
+  const res = await fetch(file);
+  return await res.json();
 }
 
-function eventCard(e){
-  const el = document.createElement('div');
-  el.className = 'card';
-  el.innerHTML = `<h4>${e.title}</h4><p class="muted">${e.date} · ${e.location || ''}</p><p>${e.description}</p><p class="muted">Posted by <strong>${e.owner}</strong></p>`;
-  return el;
+function renderSection(containerId, items, formatter) {
+  const container = document.getElementById(containerId);
+  container.innerHTML = '';
+  items.forEach(item => {
+    const div = document.createElement('div');
+    div.className = 'card';
+    div.innerHTML = formatter(item);
+    container.appendChild(div);
+  });
 }
 
-function newsCard(n){
-  const el = document.createElement('div');
-  el.className = 'card';
-  el.innerHTML = `<h4>${n.title}</h4><p class="muted">${n.source}</p><p>${n.excerpt}</p><a href="${n.link}" target="_blank" rel="noopener noreferrer">Read →</a>`;
-  return el;
-}
-
-async function boot(){
+async function init() {
   const profiles = await loadJSON('data/profiles.json');
-  const events = await loadJSON('data/events.json');
   const news = await loadJSON('data/news.json');
+  const events = await loadJSON('data/events.json');
   const legends = await loadJSON('data/legends.json');
 
-  const profilesGrid = document.getElementById('profiles-grid');
-  profiles.forEach(p=> profilesGrid.appendChild(profileCard(p)));
+  renderSection('profiles-container', profiles, p =>
+    `<h3>${p.name}</h3><p><em>${p.role}</em></p><p>${p.bio}</p><a href='${p.source}' target='_blank'>Source</a>`
+  );
 
-  const eventsList = document.getElementById('events-list');
-  events.forEach(e=> eventsList.appendChild(eventCard(e)));
+  renderSection('news-container', news, n =>
+    `<h3>${n.title}</h3><p>${n.excerpt}</p><a href='${n.link}' target='_blank'>Read more</a>`
+  );
 
-  const newsGrid = document.getElementById('news-grid');
-  news.forEach(n=> newsGrid.appendChild(newsCard(n)));
+  renderSection('events-container', events, e =>
+    `<h3>${e.title}</h3><p>${e.date} - ${e.location}</p><p>${e.description}</p>`
+  );
 
-  const legendsGrid = document.getElementById('legends-grid');
-  legends.forEach(l=>{
-    const card = document.createElement('div'); card.className='card';
-    card.innerHTML = `<h4>${l.name}</h4><p class="muted">${l.period || ''}</p><p>${l.story}</p><p class="muted">Source: <a href="${l.source}" target="_blank" rel="noopener noreferrer">link</a></p>`;
-    legendsGrid.appendChild(card);
-  });
+  renderSection('legends-container', legends, l =>
+    `<h3>${l.name}</h3><p>${l.story}</p><a href='${l.source}' target='_blank'>Reference</a>`
+  );
 
-  // link for Christine Bhoke source
-  const bh = profiles.find(x=> x.name.toLowerCase().includes('bhoke'));
-  if(bh) document.getElementById('bhoke-link').href = bh.source;
+  renderSection('coaching-container', profiles.filter(p => p.is_coach), c =>
+    `<h3>${c.name} (Coach)</h3><p>${c.bio}</p>`
+  );
+
+  renderSection('women-container', profiles.filter(p => p.tags && p.tags.includes('women')), w =>
+    `<h3>${w.name}</h3><p>${w.bio}</p>`
+  );
 }
 
-boot().catch(e=>{ console.error(e); });
+init();
